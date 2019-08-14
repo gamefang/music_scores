@@ -1,4 +1,5 @@
 > 所有资料传承自呼麦大篷车2015北京陶布秀尔班欧尼尔老师
+>
 > 整理：[gamefang](https://github.com/gamefang)
 
 ## Topshur基础节奏18种
@@ -9,8 +10,8 @@
     - 上扫：右手向上扫双弦
     - “伏”：右手下扫後，用虎口贴住琴弦禁音
 
-![Topshur_1_0001](/assets/Topshur_1_0001.png)
-![Topshur_1_0002](/assets/Topshur_1_0002.png)
+![Topshur_1_0001](assets/Topshur_1_0001.png)
+![Topshur_1_0002](assets/Topshur_1_0002.png)
 ---
 
 ## Topshur基础音阶练习
@@ -23,7 +24,7 @@
     - ③：名指按弦
     - ④：小指按弦
 
-![Topshur_2](/assets/Topshur_2.png)
+![Topshur_2](assets/Topshur_2.png)
 ---
 
 ## 萨吾尔登舞曲一
@@ -31,7 +32,7 @@
 - 共弹奏3遍，其中1~9小节循环两遍，其余部分为第三遍
 - ①等出现在高音部表示按外弦，出现在低音部表示按内弦
 
-![Topshur_3](/assets/Topshur_3.png)
+![Topshur_3](assets/Topshur_3.png)
 ---
 
 ## 萨吾尔登舞曲二
