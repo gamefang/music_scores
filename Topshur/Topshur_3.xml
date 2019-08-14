@@ -2,12 +2,12 @@
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.0">
  <work>
-  <work-title>Topshur_3</work-title>
+  <work-title>萨吾尔登舞曲一</work-title>
  </work>
  <identification>
   <rights>Copyright © gamefang</rights>
   <encoding>
-   <encoding-date>2019-08-10</encoding-date>
+   <encoding-date>2019-08-14</encoding-date>
    <encoder>Zhang</encoder>
    <software>Sibelius 7.5.0</software>
    <software>Direct export, not from Dolet</software>
@@ -69,9 +69,7 @@
   <lyric-language xml:lang="en" />
  </defaults>
  <credit page="1">
-  <credit-words default-x="560" default-y="200" font-family="Plantin MT Std" font-style="normal" font-size="14.9483" font-weight="normal" justify="center" valign="middle">1.下下 下下上
-2.下上 下下上
-3.下下上 下下上</credit-words>
+  <credit-words default-x="560" default-y="170" font-family="Plantin MT Std" font-style="normal" font-size="23.5851" font-weight="normal" justify="center" valign="middle">萨吾尔登舞曲一</credit-words>
  </credit>
  <part-list>
   <score-part id="P1">
@@ -128,23 +126,6 @@
    <direction>
     <direction-type>
      <other-direction default-y="30" print-object="no">Circled 0</other-direction>
-    </direction-type>
-    <voice>1</voice>
-    <staff>1</staff>
-   </direction>
-   <direction>
-    <direction-type>
-     <words default-y="60" relative-y="26" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="13.9518" font-weight="bold">Grave</words>
-    </direction-type>
-    <voice>1</voice>
-    <staff>1</staff>
-   </direction>
-   <direction>
-    <direction-type>
-     <metronome default-y="60" color="#000000" font-family="Plantin MT Std" font-style="normal" font-size="13.9518" font-weight="bold">
-      <beat-unit>quarter</beat-unit>
-      <per-minute>50</per-minute>
-     </metronome>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -760,6 +741,27 @@
     <type>16th</type>
     <staff>1</staff>
    </note>
+   <direction>
+    <direction-type>
+     <words default-x="127" default-y="175" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="10.796" font-weight="normal">第一遍：</words>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <words default-x="127" default-y="138" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="10.796" font-weight="normal">第二遍：</words>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <words default-x="127" default-y="98" justify="left" valign="middle" font-family="Plantin MT Std" font-style="normal" font-size="10.796" font-weight="normal">第三遍：</words>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
    <note color="#000000" default-x="127" default-y="2">
     <pitch>
      <step>E</step>
@@ -799,6 +801,27 @@
    </barline>
    <direction>
     <direction-type>
+     <other-direction default-y="175" print-object="no">Down-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <other-direction default-y="98" print-object="no">Down-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <other-direction default-y="139" print-object="no">Down-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
      <other-direction default-y="30" print-object="no">Circled 1</other-direction>
     </direction-type>
     <voice>1</voice>
@@ -830,7 +853,35 @@
    </note>
    <direction>
     <direction-type>
+     <other-direction default-y="98" print-object="no">Down-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <other-direction default-y="137" print-object="no">Up-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <other-direction default-y="176" print-object="no">Down-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
      <other-direction default-y="30" print-object="no">Circled 1</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <other-direction default-y="96" print-object="no">Up-bow above</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -861,7 +912,49 @@
    </note>
    <direction>
     <direction-type>
+     <other-direction default-y="176" print-object="no">Down-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <other-direction default-y="139" print-object="no">Down-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <other-direction default-y="98" print-object="no">Down-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
      <other-direction default-y="30" print-object="no">Circled 4</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <other-direction default-y="139" print-object="no">Down-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <other-direction default-y="98" print-object="no">Down-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <other-direction default-y="176" print-object="no">Down-bow above</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -891,6 +984,27 @@
     <type>eighth</type>
     <staff>1</staff>
    </note>
+   <direction>
+    <direction-type>
+     <other-direction default-y="174" print-object="no">Up-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <other-direction default-y="137" print-object="no">Up-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <other-direction default-y="96" print-object="no">Up-bow above</other-direction>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
    <direction>
     <direction-type>
      <other-direction default-y="30" print-object="no">Circled 1</other-direction>
