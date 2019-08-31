@@ -8,7 +8,7 @@
   <creator type="composer">Copyright © gamefang</creator>
   <rights>Copyright © gamefang</rights>
   <encoding>
-   <encoding-date>2019-08-16</encoding-date>
+   <encoding-date>2019-08-31</encoding-date>
    <encoder>Zhang</encoder>
    <software>Sibelius 7.5.0</software>
    <software>Direct export, not from Dolet</software>
@@ -193,14 +193,14 @@
    </note>
    <direction>
     <direction-type>
-     <other-direction default-y="30" print-object="no">Circled 3</other-direction>
+     <other-direction default-y="60" print-object="no">Tremblement</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
    </direction>
    <direction>
     <direction-type>
-     <other-direction default-y="60" print-object="no">Tick</other-direction>
+     <other-direction default-y="30" print-object="no">Circled 3</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -466,14 +466,14 @@
    </note>
    <direction>
     <direction-type>
-     <other-direction default-y="30" print-object="no">Circled 3</other-direction>
+     <other-direction default-y="60" print-object="no">Tremblement</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
    </direction>
    <direction>
     <direction-type>
-     <other-direction default-y="60" print-object="no">Tick</other-direction>
+     <other-direction default-y="30" print-object="no">Circled 3</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -1111,7 +1111,7 @@
    </note>
    <direction>
     <direction-type>
-     <other-direction default-y="182" print-object="no">Tick</other-direction>
+     <other-direction default-y="181" print-object="no">Tremblement</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -2084,14 +2084,14 @@
    </note>
    <direction>
     <direction-type>
-     <other-direction default-y="30" print-object="no">Circled 3</other-direction>
+     <other-direction default-y="60" print-object="no">Tremblement</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
    </direction>
    <direction>
     <direction-type>
-     <other-direction default-y="60" print-object="no">Tick</other-direction>
+     <other-direction default-y="30" print-object="no">Circled 3</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -2357,14 +2357,14 @@
    </note>
    <direction>
     <direction-type>
-     <other-direction default-y="30" print-object="no">Circled 3</other-direction>
+     <other-direction default-y="60" print-object="no">Tremblement</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
    </direction>
    <direction>
     <direction-type>
-     <other-direction default-y="60" print-object="no">Tick</other-direction>
+     <other-direction default-y="30" print-object="no">Circled 3</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>

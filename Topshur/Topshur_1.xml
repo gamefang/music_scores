@@ -8,7 +8,7 @@
   <creator type="composer">Copyright © gamefang</creator>
   <rights>Copyright © gamefang</rights>
   <encoding>
-   <encoding-date>2019-08-16</encoding-date>
+   <encoding-date>2019-08-31</encoding-date>
    <encoder>Zhang</encoder>
    <software>Sibelius 7.5.0</software>
    <software>Direct export, not from Dolet</software>
@@ -132,7 +132,7 @@
    </barline>
    <direction>
     <direction-type>
-     <other-direction default-y="118" print-object="no">Closed/mute below</other-direction>
+     <other-direction default-y="117" print-object="no">Circle</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -6206,7 +6206,7 @@
    </note>
    <direction>
     <direction-type>
-     <other-direction default-y="30" print-object="no">Closed/mute below</other-direction>
+     <other-direction default-y="30" print-object="no">Circle</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
@@ -6300,7 +6300,7 @@
    </note>
    <direction>
     <direction-type>
-     <other-direction default-y="30" print-object="no">Closed/mute below</other-direction>
+     <other-direction default-y="30" print-object="no">Circle</other-direction>
     </direction-type>
     <voice>1</voice>
     <staff>1</staff>
