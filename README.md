@@ -1,3 +1,3 @@
 # music_scores
 
-## [Topshur](Topshur/Topshur.md)
+- [Topshur曲谱](http://gamefang.github.io/2019/08/02/Topshur.html)
