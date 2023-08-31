@@ -31,11 +31,11 @@ c cih cis deh d
 ```
 c2 \tuplet 3/2 { d4 e f }
 ```
-- 同音连接 ~
+- 延音线 ~
 ```
 a1~ | a1
 ```
-- 异音连接()，从开始音右起结束音右止
+- 连音线()，从开始音右起结束音右止
 ```
 c( d e)
 ```
@@ -64,6 +64,12 @@ a8\ppp\< a a a a a a a\fff
 ## 长休止符
 ```
 R1*10	% 注意必须大写
+```
+
+## 文本标记
+```
+c^"上方文本"
+c-"下方文本"
 ```
 
 ## 零散
@@ -130,6 +136,8 @@ g f e \bar"|" d c \break	% 也可强制加入小节线
 ## 基于意式音名
 - 音高
 ```
+\language "italiano"
+
 % 十二平均律
 do dod re red mi fa fad sol sold la sib
 % 四分之一音
@@ -140,4 +148,46 @@ do dosd dod resb re
 \transpose do sib {	% c调转降b调
 	do mi sol
 }
+```
+
+---
+
+## 通用模板
+
+```
+%{
+曲目备注
+%}
+
+\version "2.24.1"
+
+\language "italiano"
+
+\header {
+  title = "曲名"
+  composer = "作者"
+  tagline = ##f
+}
+
+main = \fixed do' {
+  \key do \major
+  \time 4/4
+  \tempo 4 = 90
+  
+  \transpose do do
+  {
+  do^"第一句" re mi \fine
+  }
+}
+
+\score {
+  <<
+  \new Staff \main \with {
+    midiInstrument = "piano"
+  }
+  >>
+  \layout {}
+  \midi {}  
+}
+
 ```

@@ -1,4 +1,5 @@
 \version "2.24.1"	% 标记版本便于编译
+\language italiano
 
 % \include "event-listener.ly"	% 生成事件分析数据
 
@@ -11,55 +12,62 @@
 }
 
 % 第一声部
-first = \fixed c' {	% 定义乐谱变量，使用fixed绝对音高
+first = \fixed do'' {	% 定义乐谱变量，使用fixed绝对音高
   \clef treble
-  \key g \major
+  \key sol \major
   \time 4/4
   \tempo 4 = 120
   
+  r1 r
+  la,,2 si,, do, fa,, mi4,, re,, do,, si,,,
+  
+  
   % 绿丝低拂鸳鸯浦
-  a,2 fis4 e c'1 a2. fis4 e2. r4
+  re,2 si,4 la, fa1 re2. si,4 la,2. r4
   % 想桃叶
-  e2 b4 a
+  la,2 mi4 re
   % 当时唤渡
-  e dis8( e) d2 \grace {e4( fis} e2.) r4
+  la, sold,8( la,) sol,2 \grace {la,4( si,} la,2.) r4
   % 又将愁眼与春风
-  e4 fis g c e2 d4.( c8) b,2. \breathe
+  la,4 si, do fa, la,2 sol,4.( fa,8) mi,2. \breathe
   % 待去
-  e4 c'2.->	% ->表示着重音
+  la,4 fa2.->	% ->表示着重音
   % 倚兰桡
-  a4 b a2.
+  re4 mi re2.
   % 更少驻
-  fis4 g8( e) \grace{b4} a2~ | a2
+  si,4 do8( la,) \grace{mi4} re2~ | re2
   
   % 金陵路
-  c'4 a e1
+  fa4 re la,1
   % 莺吟燕舞
-  a4 g g2 \grace{a4( b} a2.) r4
+  re4 do do2 \grace{re4( mi} re2.) r4
   % 算潮水
-  e2 b4 a
+  la,2 mi4 re
   % 知人最苦
-  e dis8( e) d2 \grace{e4( fis} e2.) r4
+  la, sold,8( la,) sol,2 \grace{la,4( si,} la,2.) r4
   % 满汀芳草不成归
-  e4 fis g c e2 d4.( c8) b,2.
+  la,4 si, do fa, la,2 sol,4.( fa,8) mi,2.
   % 日暮
-  e4 c'2.->
+  la,4 fa2.->
   % 更移舟
-  a4 b a2.
+  re4 mi re2.
   % 向甚处
-  fis4 g8( e) \grace{b4} a2~ | a1 \fine
+  si,4 do8( la,) \grace{mi4} re2~ | re1 \fine
 
 }
 
 % 第二声部
-second = \fixed c {	% 定义乐谱变量，使用fixed绝对音高
+second = \fixed do {	% 定义乐谱变量，使用fixed绝对音高
   \clef bass
-  \key g \major
+  \key sol \major
   \time 4/4
   \tempo 4 = 120
   
+  re8 fa re' fa re fa re' fa re fa re' fa re fa re' fa
+  re fa la' fa re fa si' fa re fa do'' fa re fa fa' fa re fa la' fa re fa sol' fa re fa fa' fa re fa si fa
+  
   % 绿丝低拂鸳鸯浦
-  <a e c>1 <c fis a> <a e c> b,4 d e fis
+  <re la, fa,>1 <fa, si, re> <re la, fa,> mi,4 sol, la, si,
   %a,2 fis4 e c'1 a2. fis4 e2. r4
   % 想桃叶
   %e2 b4 a
@@ -94,25 +102,27 @@ second = \fixed c {	% 定义乐谱变量，使用fixed绝对音高
 }
 
 % 第三声部
-third = \fixed c {	% 定义乐谱变量，使用fixed绝对音高
+third = \fixed do {	% 定义乐谱变量，使用fixed绝对音高
   \time 4/4
   \tempo 4 = 120
   
+  r1 r r r r r
+  
   \repeat unfold 2 {\bar ".|:"	% TODO 临时重复一遍
   % 绿丝低拂鸳鸯浦
-  <a e c>1 <c fis a> <a e c> b,4\p\< d e fis\ff
+  <re la, fa,>1 <fa, si, re> <re la, fa,> mi,4\p\< sol, la, si,\ff
   % 想桃叶
-  <a e c>2 a4 a
+  <re la, fa,>2 re4 re
   % 当时唤渡
-  a4 a a2 \grace {e4 fis} a8\ppp\< a a a a a a a\fff
+  re4 re re2 \grace {la,4 si,} re8\ppp\< re re re re re re re\fff
   % 又将愁眼与春风
-  a2 a4 a a2 a4 a a a a
+  re2 re4 re re2 re4 re re re re
   % 待去
-  a4 \grace {a8 a} <a e c>2.->
+  re4 \grace {re8 re} <re la, fa,>2.->
   % 倚兰桡
-  a4 b a4. a8 a4
+  re4 mi re4. re8 re4
   % 更少驻
-  a4 a8 a \grace {a8 a} a2~
+  re4 re8 re \grace {re8 re} re2~
   \bar ":|."}	% TODO 临时重复一遍
   
   % 金陵路
